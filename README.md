@@ -11,12 +11,12 @@ In this data set the measured raw data was provided for both testing and trainin
 •	activity_labels.txt: Link between activity ids and descriptive name of the activity
 Code description
 The code within run_analysis.R can be separated in a few sections, which was highlighted via comments at the beginning of each section:
-•	Downloading, unzipping  data
+•	Downloading and unzipping  data
 •	loading data
 •	merging data and extracting relevant variables
 •	aggregating data and estimating the average by group
 •	Writing final output to txt file
-Downloading, unzipping 
+Downloading and unzipping 
 •	Downloads and unzips the UCI HAR dataset fileURL, if the data set filename is not yet existing in the current working directory
 Loading input data
 •	Reads in "features.txt" into features and "activity_labels.txt" into activity_labels, which contain informations on kind of measurement (variables) and activity. With these informations data columns can be named with its appropriate variable name and activity labels can be transformed into descriptive names.
